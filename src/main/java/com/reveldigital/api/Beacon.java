@@ -157,7 +157,7 @@ public class Beacon implements Serializable {
         return this;
     }
 
-    public Beacon getNamespace(String namespace) {
+    public Beacon setNamespace(String namespace) {
         this.namespace = namespace;
         return this;
     }
